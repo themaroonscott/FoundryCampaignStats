@@ -1,0 +1,17 @@
+{
+  "name": "foundry-campaign-stats",
+  "version": "0.0.1",
+  "description": "Foundry VTT Module to keep track of dice rolls and various statistics for rolls in a campaign.",
+  "main": "scripts/module.js",
+  "repository": "https://github.com/themaroonscott/FoundryCampaignStats.git",
+  "author": "Jacob Buchanan <jbuchanan1304@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
