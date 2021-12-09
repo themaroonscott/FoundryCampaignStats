@@ -15,7 +15,45 @@ export const OPT_TOGGLE_CAMPAIGN_TRACKING = "toggle_campaign_tracking_name";
 export const OPT_REPORT_BUG = "report_bug";
 
 export const ATTACKTYPES = {
-    INFO: "info",
-    ATTACK: "attack",
-    
+  INFO: "info",
+  ATTACK: "attack",
+  DAMAGE_FORMULA: "damage-formula",
+  DAMAGE: "damage",
+  NONE: "none",
+};
+
+export const ATTACK_DATA_TEMPLATE = {
+  id: null,
+  actionType: null,
+  round: null,
+  tokenId: null,
+  actorId: null,
+  advantage: false,
+  isCritical: false,
+  isFumble: false,
+  disadvantage: false,
+  attackTotal: 0,
+  damageTotal: 0,
+  item: {
+    name: null,
+    itemLink: null,
+  },
+};
+
+export const HEALTH_DATA_TEMPLATE = {
+  id: null,
+  round: null,
+  tokenId: null,
+  actorId: null,
+  max: 0,
+  diff: 0,
+  previous: 0,
+  current: 0,
+  isdamage: false,
+  isheal: false,
+};
+
+export const KILLED_DATA_TEMPLATE = {
+  round: null,
+  tokenName: null,
 };
